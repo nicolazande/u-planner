@@ -19,7 +19,7 @@ import env, plotting, utils, smoothing
 class Node:
 
     def __init__(self, S):
-        self.S = np.array(S) #stato
+        self.S = np.array(S) #statostato
         self.Cov = [[0.1, 0], [0, 0.1]] #inizializzo covariance con Pw
         self.parent = None
 
