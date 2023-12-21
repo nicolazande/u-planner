@@ -14,6 +14,12 @@ To ensure collision probability remains below a threshold (∆ = 1 - psafe), the
 
 The U-Planner algorithm extends the ABIT* framework by considering uncertainty and probabilistic constraints. It introduces the concept of chance constraints, where the probability of collision with each obstacle is evaluated to maintain overall safety. The algorithm propagates mean and covariance values using simulations based on the available robot model and dynamics. The simulation ensures probabilistic feasibility and allows for additional safety bounds during collision checking. U-Planner provides two approaches: one in task space and another in joint space, each with its own advantages and considerations.
 
+## Example
+![2](https://github.com/nicolazande/u-planner/assets/115359494/a6ae8c68-3ad2-4231-a658-a563900b7bc4)
+![3](https://github.com/nicolazande/u-planner/assets/115359494/c11d2560-1a7a-4c76-b45a-0c8c6d5e5122)
+![1](https://github.com/nicolazande/u-planner/assets/115359494/894d6ca9-3fa2-4abd-b7e3-0eb8a9da54b1)
+
+
 ## Usage
 
 To use U-Planner in your Python project, follow these steps:
